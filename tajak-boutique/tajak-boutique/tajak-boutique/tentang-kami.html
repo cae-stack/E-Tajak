@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami | Tajak Boutique</title>
+  <meta name="description" content="Mengenal Tajak Boutique: cerita, visi, dan nilai yang kami pegang.">
+
+  <!-- Font: Playfair Display (judul) & Lato (teks) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet utama (satu file untuk semua halaman) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       HEADER & NAVBAR (sama di semua halaman)
+       Tanda aktif: class="active" + aria-current="page" pada menu halaman ini.
+       ========================================= -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a href="index.html" class="logo">TAJAK BOUTIQUE</a>
+
+      <!-- Tombol hamburger (hanya tampil di HP/tablet) -->
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Beranda</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="submenu-koleksi">
+            Koleksi <span class="caret" aria-hidden="true"></span>
+          </button>
+          <ul class="dropdown-menu" id="submenu-koleksi">
+            <li><a href="koleksi-atasan.html">Atasan</a></li>
+            <li><a href="koleksi-bawahan.html">Bawahan</a></li>
+            <li><a href="koleksi-tas.html">Tas</a></li>
+            <li><a href="koleksi-alas-kaki.html">Alas Kaki</a></li>
+          </ul>
+        </li>
+        <li><a href="tentang-kami.html" class="nav-link active" aria-current="page">Tentang Kami</a></li>
+        <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Judul halaman -->
+    <section class="page-header">
+      <p class="breadcrumb"><a href="index.html">Beranda</a> / Tentang Kami</p>
+      <h1 class="page-title">Tentang Kami</h1>
+      <p class="page-subtitle">Cerita di balik The House of Tajak.</p>
+    </section>
+
+    <article class="page-content">
+      <div class="about-image">
+        <!-- GAMBAR: taruh file di assets/img/tentang-kami.jpg (foto toko/tim, landscape 16:9, min. 1200 x 675 px) -->
+        <img src="assets/img/tentang-kami.jpg" alt="Suasana toko Tajak Boutique">
+      </div>
+
+      <!-- GANTI ISI INI: cerita singkat toko Anda -->
+      <p class="lead">Tajak Boutique lahir dari kecintaan kami pada busana yang sederhana, anggun, dan nyaman dipakai setiap hari.</p>
+      <p>Berawal dari usaha kecil yang menjual pakaian kepada teman dan keluarga, Tajak Boutique kini hadir sebagai butik yang menyediakan atasan, bawahan, tas, dan alas kaki pilihan untuk perempuan Indonesia. Setiap koleksi kami pilih langsung dengan memperhatikan kualitas bahan, kerapian jahitan, dan kenyamanan saat dipakai.</p>
+      <p>Kami percaya tampil elegan tidak harus mahal. Karena itu, kami berusaha menghadirkan produk berkualitas dengan harga yang tetap bersahabat.</p>
+      <!-- /GANTI ISI INI -->
+
+      <!-- GANTI ISI INI: visi & misi -->
+      <h2>Visi &amp; Misi</h2>
+      <p><strong>Visi:</strong> Menjadi butik pilihan perempuan Indonesia untuk tampil percaya diri dan anggun di setiap kesempatan.</p>
+      <p><strong>Misi:</strong></p>
+      <ul>
+        <li>Menghadirkan koleksi yang dikurasi dengan cermat, mengikuti tren namun tetap timeless.</li>
+        <li>Memberikan pelayanan yang ramah, cepat, dan jujur, baik di toko maupun secara online.</li>
+        <li>Mendukung produk dan perajin lokal Indonesia.</li>
+      </ul>
+      <!-- /GANTI ISI INI -->
+
+      <h2>Nilai Kami</h2>
+      <!-- GANTI ISI INI: nilai/keunggulan toko -->
+      <div class="value-grid">
+        <div class="value-item">
+          <h3>Kualitas</h3>
+          <p>Setiap produk dicek satu per satu sebelum dikirim.</p>
+        </div>
+        <div class="value-item">
+          <h3>Pelayanan</h3>
+          <p>Admin siap membantu memilih ukuran dan padu padan.</p>
+        </div>
+        <div class="value-item">
+          <h3>Harga Jujur</h3>
+          <p>Harga sesuai kualitas, tanpa biaya tersembunyi.</p>
+        </div>
+      </div>
+      <!-- /GANTI ISI INI -->
+
+      <h2>Kunjungi Toko Kami</h2>
+      <!-- GANTI ISI INI: alamat & jam buka -->
+      <p>Selain berbelanja online, Anda juga bisa datang langsung ke toko kami untuk mencoba koleksi terbaru.</p>
+      <p><a href="https://maps.app.goo.gl/6WzZq94cobvXwUwE8" target="_blank" rel="noopener">Lihat lokasi toko di Google Maps</a> &middot; <a href="kontak.html">Hubungi kami</a></p>
+      <!-- /GANTI ISI INI -->
+    </article>
+  </main>
+
+  <!-- =========================================
+       FOOTER (sama di semua halaman)
+       ========================================= -->
+  <footer class="footer-container">
+
+    <!-- Newsletter -->
+    <div class="newsletter-section">
+      <div class="newsletter-title">Dapatkan inspirasi &amp; berita terbaru Tajak Boutique Indonesia</div>
+      <!-- TODO (backend PHP): form ini nanti dikirim ke server agar email tersimpan di database. Lihat assets/js/main.js bagian 5. -->
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <div class="input-group">
+          <label for="newsletter-email" class="sr-only">Alamat e-mail</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="* E-mail" required>
+        </div>
+        <button type="submit" class="btn-submit">Confirm</button>
+      </form>
+      <p class="form-message" id="newsletter-message" role="status" aria-live="polite"></p>
+    </div>
+
+    <!-- Link footer -->
+    <div class="links-grid">
+      <div class="column">
+        <h3>Tajak Boutique</h3>
+        <ul>
+          <li><a href="koleksi-atasan.html">Koleksi Baju</a></li>
+          <li><a href="koleksi-bawahan.html">Koleksi Celana</a></li>
+          <li><a href="koleksi-tas.html">Koleksi Tas</a></li>
+          <li><a href="koleksi-alas-kaki.html">Koleksi Alas Kaki</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>Layanan Pelanggan</h3>
+        <ul>
+          <li><a href="https://wa.me/6281958121931" target="_blank" rel="noopener">Kontak (WhatsApp)</a></li>
+          <li><a href="cara-pemesanan.html">Cara Pemesanan</a></li>
+          <li><a href="panduan-ukuran.html">Panduan Ukuran</a></li>
+          <li><a href="konfirmasi-transfer.html">Konfirmasi Transfer</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>The House Of Tajak</h3>
+        <ul>
+          <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          <li><a href="https://maps.app.goo.gl/6WzZq94cobvXwUwE8" target="_blank" rel="noopener">Lokasi Toko</a></li>
+          <li><a href="galeri.html">Galeri Foto</a></li>
+          <li><a href="testimoni.html">Testimoni</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>Kebijakan Toko</h3>
+        <ul>
+          <li><a href="syarat-ketentuan.html">Syarat &amp; Ketentuan</a></li>
+          <li><a href="kebijakan-pengiriman.html">Kebijakan Pengiriman</a></li>
+          <li><a href="kebijakan-retur.html">Kebijakan Retur</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bar bawah -->
+    <div class="bottom-bar">
+      <div class="country-selector">Indonesia (IDR)</div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/tajak_indonesia/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p class="copyright">&copy; 2026 Tajak Boutique. Seluruh hak cipta dilindungi.</p>
+    </div>
+
+  </footer>
+
+  <!-- Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

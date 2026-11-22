@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syarat &amp; Ketentuan | Tajak Boutique</title>
+  <meta name="description" content="Syarat dan ketentuan berbelanja di Tajak Boutique.">
+
+  <!-- Font: Playfair Display (judul) & Lato (teks) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet utama (satu file untuk semua halaman) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       HEADER & NAVBAR (sama di semua halaman)
+       Tanda aktif: class="active" + aria-current="page" pada menu halaman ini.
+       ========================================= -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a href="index.html" class="logo">TAJAK BOUTIQUE</a>
+
+      <!-- Tombol hamburger (hanya tampil di HP/tablet) -->
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Beranda</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="submenu-koleksi">
+            Koleksi <span class="caret" aria-hidden="true"></span>
+          </button>
+          <ul class="dropdown-menu" id="submenu-koleksi">
+            <li><a href="koleksi-atasan.html">Atasan</a></li>
+            <li><a href="koleksi-bawahan.html">Bawahan</a></li>
+            <li><a href="koleksi-tas.html">Tas</a></li>
+            <li><a href="koleksi-alas-kaki.html">Alas Kaki</a></li>
+          </ul>
+        </li>
+        <li><a href="tentang-kami.html" class="nav-link">Tentang Kami</a></li>
+        <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Judul halaman -->
+    <section class="page-header">
+      <p class="breadcrumb"><a href="index.html">Beranda</a> / Kebijakan Toko / Syarat &amp; Ketentuan</p>
+      <h1 class="page-title">Syarat &amp; Ketentuan</h1>
+      <p class="page-subtitle">Mohon dibaca sebelum melakukan pemesanan.</p>
+    </section>
+
+    <article class="page-content">
+      <!-- GANTI ISI INI: sesuaikan seluruh ketentuan dengan kebijakan toko Anda -->
+      <p class="updated">Terakhir diperbarui: 22 November 2026</p>
+      <p>Dengan melakukan pemesanan di Tajak Boutique, Anda dianggap telah membaca, memahami, dan menyetujui syarat dan ketentuan berikut.</p>
+
+      <h2>1. Produk</h2>
+      <ul>
+        <li>Kami berusaha menampilkan foto produk semirip mungkin dengan aslinya. Perbedaan warna sedikit dapat terjadi karena pencahayaan dan pengaturan layar.</li>
+        <li>Ukuran produk memiliki toleransi 1&ndash;2 cm.</li>
+        <li>Ketersediaan stok dapat berubah sewaktu-waktu dan akan dikonfirmasi oleh admin saat pemesanan.</li>
+      </ul>
+
+      <h2>2. Harga &amp; Pembayaran</h2>
+      <ul>
+        <li>Harga yang tercantum dalam Rupiah (IDR) dan belum termasuk ongkos kirim.</li>
+        <li>Pembayaran dilakukan melalui transfer ke rekening resmi atas nama Tajak Boutique.</li>
+        <li>Pesanan yang belum dibayar dalam 1 x 24 jam setelah total dikirimkan akan dibatalkan otomatis.</li>
+      </ul>
+
+      <h2>3. Pemesanan</h2>
+      <ul>
+        <li>Pesanan dianggap sah setelah pembayaran dikonfirmasi oleh admin.</li>
+        <li>Pastikan nama, alamat, dan nomor HP penerima sudah benar. Kesalahan data dari pembeli di luar tanggung jawab kami.</li>
+        <li>Pesanan yang sudah dibayar tidak dapat dibatalkan, kecuali stok ternyata habis (dana dikembalikan penuh).</li>
+      </ul>
+
+      <h2>4. Pengiriman &amp; Retur</h2>
+      <p>Ketentuan pengiriman dan pengembalian barang dijelaskan di halaman <a href="kebijakan-pengiriman.html">Kebijakan Pengiriman</a> dan <a href="kebijakan-retur.html">Kebijakan Retur</a>.</p>
+
+      <h2>5. Privasi Data</h2>
+      <p>Data pribadi yang Anda berikan (nama, alamat, nomor HP, e-mail) hanya digunakan untuk memproses pesanan dan mengirim informasi dari Tajak Boutique. Kami tidak menjual atau membagikan data Anda kepada pihak lain.</p>
+
+      <h2>6. Perubahan Ketentuan</h2>
+      <p>Tajak Boutique berhak mengubah syarat dan ketentuan ini sewaktu-waktu. Perubahan berlaku sejak dipublikasikan di halaman ini.</p>
+      <!-- /GANTI ISI INI -->
+
+      <p>Ada pertanyaan? <a href="kontak.html">Hubungi kami</a>.</p>
+    </article>
+  </main>
+
+  <!-- =========================================
+       FOOTER (sama di semua halaman)
+       ========================================= -->
+  <footer class="footer-container">
+
+    <!-- Newsletter -->
+    <div class="newsletter-section">
+      <div class="newsletter-title">Dapatkan inspirasi &amp; berita terbaru Tajak Boutique Indonesia</div>
+      <!-- TODO (backend PHP): form ini nanti dikirim ke server agar email tersimpan di database. Lihat assets/js/main.js bagian 5. -->
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <div class="input-group">
+          <label for="newsletter-email" class="sr-only">Alamat e-mail</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="* E-mail" required>
+        </div>
+        <button type="submit" class="btn-submit">Confirm</button>
+      </form>
+      <p class="form-message" id="newsletter-message" role="status" aria-live="polite"></p>
+    </div>
+
+    <!-- Link footer -->
+    <div class="links-grid">
+      <div class="column">
+        <h3>Tajak Boutique</h3>
+        <ul>
+          <li><a href="koleksi-atasan.html">Koleksi Baju</a></li>
+          <li><a href="koleksi-bawahan.html">Koleksi Celana</a></li>
+          <li><a href="koleksi-tas.html">Koleksi Tas</a></li>
+          <li><a href="koleksi-alas-kaki.html">Koleksi Alas Kaki</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>Layanan Pelanggan</h3>
+        <ul>
+          <li><a href="https://wa.me/6281958121931" target="_blank" rel="noopener">Kontak (WhatsApp)</a></li>
+          <li><a href="cara-pemesanan.html">Cara Pemesanan</a></li>
+          <li><a href="panduan-ukuran.html">Panduan Ukuran</a></li>
+          <li><a href="konfirmasi-transfer.html">Konfirmasi Transfer</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>The House Of Tajak</h3>
+        <ul>
+          <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          <li><a href="https://maps.app.goo.gl/6WzZq94cobvXwUwE8" target="_blank" rel="noopener">Lokasi Toko</a></li>
+          <li><a href="galeri.html">Galeri Foto</a></li>
+          <li><a href="testimoni.html">Testimoni</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>Kebijakan Toko</h3>
+        <ul>
+          <li><a href="syarat-ketentuan.html">Syarat &amp; Ketentuan</a></li>
+          <li><a href="kebijakan-pengiriman.html">Kebijakan Pengiriman</a></li>
+          <li><a href="kebijakan-retur.html">Kebijakan Retur</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bar bawah -->
+    <div class="bottom-bar">
+      <div class="country-selector">Indonesia (IDR)</div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/tajak_indonesia/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p class="copyright">&copy; 2026 Tajak Boutique. Seluruh hak cipta dilindungi.</p>
+    </div>
+
+  </footer>
+
+  <!-- Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
